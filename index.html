@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <base href="/">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="semantic/dist/semantic.css" rel="stylesheet" async />
+    <!--<link href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" rel="stylesheet" async>-->
+    <script src="node_modules/es6-shim/es6-shim.min.js"></script>
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+
+    <!-- Configure SystemJS -->
+    <script src="systemjs.config.js"></script>
+    <script>
+      System.import('app').catch(function(err){ console.error(err);  });
+    </script>
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <link href="app/app.component.css" rel="stylesheet" />
+    <dashboard-app>
+        <div class="ui container">
+            <div class="ui active inverted dimmer">
+                <div class="ui large text loader">Loading App...</div>
+            </div>
+        </div>
+    </dashboard-app>
+    <script src="semantic/dist/semantic.js"></script>
+</body>
+
+</html>

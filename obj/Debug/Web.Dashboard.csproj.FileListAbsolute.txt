@@ -1,0 +1,6 @@
+C:\Users\ztyler\Projects\Web\Web.Dashboard\Web.Dashboard\obj\Debug\Web.Dashboard.csprojResolveAssemblyReference.cache
+C:\Users\ztyler\Projects\Web\Web.Dashboard\Web.Dashboard\bin\Web.Dashboard.dll
+C:\Users\ztyler\Projects\Web\Web.Dashboard\Web.Dashboard\bin\Web.Dashboard.pdb
+C:\Users\ztyler\Projects\Web\Web.Dashboard\Web.Dashboard\obj\Debug\Web.Dashboard.dll
+C:\Users\ztyler\Projects\Web\Web.Dashboard\Web.Dashboard\obj\Debug\Web.Dashboard.pdb
+C:\Users\ztyler\Projects\Web\Web.Dashboard\Web.Dashboard\bin\Web.Dashboard.dll.config

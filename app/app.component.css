@@ -1,0 +1,22 @@
+li {
+    font-size: large;
+}
+
+div.panel-heading {
+   font-size: x-large; 
+}
+
+#header {
+    margin-top: 10em;
+}
+
+#cards {
+    position: relative;
+}
+
+@media only screen and (min-width: 768px) {
+    #cards {
+        position: fixed;
+        bottom: 0px;
+    }
+}
