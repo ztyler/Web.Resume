@@ -18,7 +18,7 @@ System.register(['@angular/core'], function(exports_1, context_1) {
                 core_1 = core_1_1;
             }],
         execute: function() {
-            templ = "\n<div class=\"ui container\">\n    <h2 style=\"margin-top: 15px\" class=\"ui center aligned icon header\">\n        <i class=\"{{pageIcon}}\"></i>\n        {{pageTitle}}\n    </h2>\n</div>\n";
+            templ = "\n<div class=\"ui container\">\n    <h2 style=\"margin-top: 15px\" class=\"ui center aligned inverted icon header\">\n        <i class=\"{{pageIcon}}\"></i>\n        {{pageTitle}}\n    </h2>\n</div>\n";
             ConnectComponent = (function () {
                 function ConnectComponent() {
                     this.pageTitle = 'Connect Component';

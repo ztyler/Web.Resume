@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 let templ = `
 <div class="ui container">
-    <h2 style="margin-top: 15px" class="ui center aligned icon header">
+    <h2 style="margin-top: 15px" class="ui center aligned inverted icon header">
         <i class="{{pageIcon}}"></i>
         {{pageTitle}}
     </h2>

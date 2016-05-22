@@ -21,27 +21,19 @@ System.register(['@angular/core'], function(exports_1, context_1) {
                 core_1 = core_1_1;
             }],
         execute: function() {
-            templ = "\n<div class=\"ui container\">\n    <div id=\"cards\" class=\"ui four column doubling stackable grid container segment\">\n        <div *ngFor=\"let card of cards_DEBUG\" class=\"column\">\n            <div class=\"ui fluid card\">\n                <div class=\"image\">\n                    <img [src]=\"[card.img]\">\n                </div>\n                <div class=\"content\">\n                    <span class=\"header\">{{card.header}}</span>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n";
+            templ = "\n<div class=\"ui container\">\n    <div id=\"cards\" class=\"ui two column doubling stackable grid container segment\">\n        <div *ngFor=\"let card of cards_DEBUG\" class=\"column\">\n            <div class=\"ui fluid card\">\n                <div class=\"image\">\n                    <img [src]=\"[card.img]\">\n                </div>\n                <div class=\"content\">\n                    <span class=\"header\">{{card.header}}</span>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n";
             HomeComponent = (function () {
                 function HomeComponent(elementRef) {
                     this.pageTitle = 'Home Component';
                     this.pageIcon = 'circular home icon';
                     this.cards_DEBUG = [
                         {
-                            "header": "A Cute Kitten",
+                            "header": "About Me",
                             "img": "https://placekitten.com/1000/1000"
                         },
                         {
-                            "header": "Another Cute Kitten",
+                            "header": "GitHub",
                             "img": "https://placekitten.com/600/600"
-                        },
-                        {
-                            "header": "And Another!",
-                            "img": "https://placekitten.com/700/700"
-                        },
-                        {
-                            "header": "Kittens Everywhere!",
-                            "img": "https://placekitten.com/800/800"
                         }
                     ];
                     this.elementRef = elementRef;

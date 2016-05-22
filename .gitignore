@@ -1,3 +1,9 @@
+node_modules/*
+
+semantic/*
+semantic/*/
+!semantic/dist/
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
